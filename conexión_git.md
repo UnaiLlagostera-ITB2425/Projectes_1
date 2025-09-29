@@ -5,7 +5,7 @@ Configurar el acceso seguro a GitHub desde los servidores mediante SSH para pode
 
 ---
 
-## 🔑 Generación de Claves RSA
+## Generación de Claves RSA
 
 ### 📝 Proceso de Creación de Claves
 
@@ -25,31 +25,8 @@ ssh-keygen -t rsa -b 4096 -C "desarrollo@itb-project" -f ~/.ssh/itb_project_rsa
 - `-C "desarrollo@itb-project"`: Añade un comentario identificativo
 - `-f ~/.ssh/itb_project_rsa`: Define el nombre del archivo de la clave
 
-**Salida esperada:**
-```
-Generating public/private rsa key pair.
-Enter passphrase (empty for no passphrase): [Dejar vacío para este proyecto]
-Enter same passphrase again: [Dejar vacío]
-Your identification has been saved in /home/usuario/.ssh/itb_project_rsa
-Your public key has been saved in /home/usuario/.ssh/itb_project_rsa.pub
-The key fingerprint is:
-SHA256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx desarrollo@itb-project
-The key's randomart image is:
-+---[RSA 4096]----+
-|          .o+    |
-|         o o .   |
-|        . . .    |
-|       . .   .   |
-|        S . . .  |
-|       . = . . . |
-|      . + * . . .|
-|       . + * . . |
-|        E=+ . .  |
-+----[SHA256]-----+
-```
-
-![Generación de Claves SSH](img/ssh-key-generation.png)
-*Captura: Proceso de generación de claves RSA*
+![Generación de Claves SSH](img/creacion_claves.png)
+*Proceso de generación de claves RSA*
 
 ---
 
@@ -64,19 +41,7 @@ Una vez generadas las claves, debemos enviar la clave pública al administrador 
 # Mostrar el contenido de la clave pública
 cat ~/.ssh/itb_project_rsa.pub
 ```
-
-**Contenido esperado (ejemplo):**
-```
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDC1... (continúa) ... desarrollo@itb-project
-```
-
-**Paso 2: Copiar la clave pública**
-```bash
-# En sistemas Linux/Mac
-cat ~/.ssh/itb_project_rsa.pub | pbcopy
-
-# O simplemente seleccionar y copiar la salida del comando anterior
-```
+Seleccionar y copiar la salida del comando anterior, para posteriormente enviar la al responsable del GitHub.
 
 ![Clave Pública](img/public-key-content.png)
 *Captura: Contenido de la clave pública lista para copiar*
