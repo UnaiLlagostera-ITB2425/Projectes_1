@@ -27,15 +27,12 @@ Los servidores se comunican entre sí a través de la red. El servidor web aloja
 4. **Corrección de bugs** en el código.
 5. **Despliegue y pruebas**.
 
-## Bugs Encontrados y Solucionados
+## Correciones en el código
 
-### En el código PHP
-- **Conexión a la base de datos**: Se corrigió la manera de conectar con la base de datos, utilizando una conexión segura y manejando errores.
-- **Validación de entradas**: Se aplicaron validaciones para prevenir inyecciones SQL.
+### Código Apache/PHP
 
-### En la base de datos
-- **Configuración de permisos**: Se ajustaron los permisos del usuario de la base de datos para limitar su acceso.
-- **Scripts de inicialización**: Se corrigieron errores en los scripts de creación de tablas.
+### Base de datos
+
 
 <div align="center">
   <a href="https://github.com/UnaiLlagostera-ITB2425/Projectes_1" target="_blank">
