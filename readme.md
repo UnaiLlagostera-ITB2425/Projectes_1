@@ -33,7 +33,6 @@ Los servidores se comunican entre sí a través de la red. El servidor web aloja
 
 ### Base de datos
 
-
 <div align="center">
   <a href="https://github.com/UnaiLlagostera-ITB2425/Projectes_1" target="_blank">
     <img src="https://img.shields.io/badge/_Acceder_al_Repositorio-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=FF6B6B&color=181717&animation=pulse" alt="GitHub Repository" style="border-radius: 8px;">
