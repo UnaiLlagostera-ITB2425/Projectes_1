@@ -44,7 +44,7 @@ cat ~/.ssh/itb_project_rsa.pub
 ```
 Seleccionar y copiar la salida del comando anterior, para posteriormente enviar la al responsable del GitHub.
 
-![Clave Pública](img/public-key-content.png)
+![Clave Pública](img/clave_pub.png)
 *Captura: Contenido de la clave pública lista para copiar*
 
 **Paso 3: El administrador debe registrar la clave en GitHub:**
@@ -54,12 +54,12 @@ Seleccionar y copiar la salida del comando anterior, para posteriormente enviar 
 4. Asignar un nombre descriptivo: `Servidor Desarrollo - ITB Project`
 5. Clic en **Add SSH key**
 
-![Registro GitHub](img/github-ssh-registration.png)
+![Registro GitHub](img/add_key.png)
 *Captura: Interfaz de GitHub para añadir nueva clave SSH*
 
 ---
 
-## 💻 Conexión desde Línea de Comandos
+## 💻 Conexión Git
 
 ### ⚙️ Configuración del Cliente SSH
 
@@ -96,9 +96,6 @@ Host github-itb
     IdentitiesOnly yes
 ```
 
-![Configuración SSH](img/ssh-config-file.png)
-*Captura: Archivo de configuración SSH personalizado*
-
 ---
 
 ## 🔍 Verificación de la Conexión
@@ -125,7 +122,7 @@ ssh-add -l
 ssh -G github-itb
 ```
 
-![Verificación Conexión](img/ssh-connection-test.png)
+![Verificación Conexión](img/verif_ssh.png)
 *Captura: Verificación exitosa de la conexión SSH*
 
 ---
@@ -134,7 +131,7 @@ ssh -G github-itb
 
 ### 🚀 Comandos para Clonar y Configurar
 
-**Clonar el repositorio usando nuestra configuración SSH:**
+**Clonar el repositorio mediante SSH:**
 ```bash
 # Clonar usando el host configurado
 git clone github-itb:UnaiLlagostera-ITB2425/Projectes_1.git
