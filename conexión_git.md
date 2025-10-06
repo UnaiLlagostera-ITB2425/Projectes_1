@@ -203,12 +203,14 @@ git commit -m "fix: corregir error en conexión BD"
 git push origin main
 ```
 
-![Flujo Git](img/git-workflow.png)
+![Flujo Git](img/flujo_trabajo.png)
 *Captura: Ejemplo de flujo de trabajo con Git*
 
 ---
 
 ## 🚨 Solución de Problemas Comunes
+
+**🔄 ¿Problemas con la conexión?** Revisa los permisos de las claves y verifica que la clave pública esté correctamente registrada en GitHub.
 
 ### ❌ Error: Permiso Denegado
 
@@ -244,18 +246,6 @@ ssh -T github-itb
 
 ---
 
-## ✅ Checklist de Configuración
-
-- [x] Claves RSA generadas correctamente
-- [x] Clave pública registrada en GitHub
-- [x] Configuración SSH personalizada creada
-- [x] Conexión SSH verificada exitosamente
-- [x] Repositorio clonado correctamente
-- [x] Configuración de usuario Git establecida
-- [x] Permisos de archivos SSH configurados
-
----
-
 ## 📝 Resumen de Comandos Clave
 
 | Comando | Función |
@@ -268,20 +258,4 @@ ssh -T github-itb
 
 ---
 
-<div align="center">
-
-[![🏠 Volver al Índice](https://img.shields.io/badge/🏠_VOLVER_AL_ÍNDICE_PRINCIPAL-ReadMe_Completo-FF6B6B?style=for-the-badge&logo=house&logoColor=white)](readme.md)
-
-</div>
-
-**🔄 ¿Problemas con la conexión?** Revisa los permisos de las claves y verifica que la clave pública esté correctamente registrada en GitHub.
-
-
-
-
-
-
-
 [![Índice](https://img.shields.io/badge/_Volver_al_Índice--badge&logo=house&logoColor=white)](readme.md)
-
-a
