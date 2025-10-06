@@ -1,4 +1,4 @@
-[![Índice](https://img.shields.io/badge/_Volver_al_Índice--badge&logo=house&logoColor=white)](./Proyecto_1)
+[![Índice](https://img.shields.io/badge/_Volver_al_Índice--badge&logo=house&logoColor=white)](/Proyecto_1/)
 # Conexión con GitHub
 
 ## 🎯 Objetivo
