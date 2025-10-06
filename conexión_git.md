@@ -89,7 +89,7 @@ nano ~/.ssh/config
 **Añadir la siguiente configuración:**
 ```config
 # Configuración para el repositorio ITB Project
-Host github-itb
+Host git@github.com
     HostName github.com
     User git
     IdentityFile ~/.ssh/itb_project_rsa
@@ -105,7 +105,7 @@ Host github-itb
 **Probar la conexión SSH con GitHub:**
 ```bash
 # Verificar la conexión usando nuestro host configurado
-ssh -T github-itb
+ssh -T git@github.com
 ```
 
 **Salida esperada (éxito):**
@@ -119,7 +119,7 @@ Hi UnaiLlagostera-ITB2425/Projectes_1! You've successfully authenticated, but Gi
 ssh-add -l
 
 # Verificar la configuración SSH
-ssh -G github-itb
+ssh -G git@github.com
 ```
 
 ![Verificación Conexión](img/verif_ssh.png)
@@ -134,7 +134,7 @@ ssh -G github-itb
 **Clonar el repositorio mediante SSH:**
 ```bash
 # Clonar usando el host configurado
-git clone github-itb:UnaiLlagostera-ITB2425/Projectes_1.git
+git clone git@github.com:UnaiLlagostera-ITB2425/Projectes_1.git
 
 # Navegar al directorio del proyecto
 cd Projectes_1
@@ -241,7 +241,7 @@ ssh-add ~/.ssh/itb_project_rsa
 ssh -T git@github.com
 
 # O usando nuestra configuración personalizada
-ssh -T github-itb
+ssh -T git@github.com
 ```
 
 ---
@@ -252,8 +252,8 @@ ssh -T github-itb
 |---------|---------|
 | `ssh-keygen -t rsa -b 4096` | Generar nuevas claves RSA |
 | `ssh-add ~/.ssh/itb_project_rsa` | Añadir clave al agente SSH |
-| `ssh -T github-itb` | Verificar conexión con GitHub |
-| `git clone github-itb:usuario/repo.git` | Clonar repositorio |
+| `ssh -T git@github.com` | Verificar conexión con GitHub |
+| `git clone git@github.com:usuario/repo.git` | Clonar repositorio |
 | `git config user.name "Nombre"` | Configurar usuario Git |
 
 ---
