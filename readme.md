@@ -27,11 +27,12 @@ Los servidores se comunican entre sí a través de la red. El servidor web aloja
 4. **Corrección de bugs** en el código.
 5. **Despliegue y pruebas**.
 
-## Correciones en el código
+### Correciones en el código
+En el código proporcionado hay varios errores que hemos tenido que solucionar
 
-### Código Apache/PHP
+[Ver código](correciones.md)
 
-### Base de datos
+---
 
 <div align="center">
   <a href="https://github.com/UnaiLlagostera-ITB2425/Projectes_1" target="_blank">
