@@ -1,4 +1,4 @@
-# AP - Treball amb git i desplegament de codi inicial
+# AP - Trabajo con git y desplegamiento de código inicial
 
 ## Índice
 
