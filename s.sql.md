@@ -7,7 +7,6 @@
 El fichero `scriptbd.sql` contiene las instrucciones para crear la base de datos y la tabla principal del proyecto.
 
 ### 📄 Ejemplo de `scriptbd.sql`
-
 ```sql
 CREATE DATABASE IF NOT EXISTS crud_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
