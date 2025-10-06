@@ -152,7 +152,7 @@ git config user.email "tu-email@itb.cat"
 git config --list
 ```
 
-![Clonación Repositorio](img/git-clone-success.png)
+![Clonación Repositorio](img/alejandro_clone_repositorio.png)
 *Captura: Repositorio clonado exitosamente*
 
 ---
