@@ -1,4 +1,4 @@
-[![Índice](https://img.shields.io/badge/_Volver_al_Índice--badge&logo=house&logoColor=white)](/Proyecto_1/)
+[![Índice](https://img.shields.io/badge/_Volver_al_Índice--badge&logo=house&logoColor=white)](./)
 # Conexión con GitHub
 
 ## 🎯 Objetivo
@@ -258,4 +258,4 @@ ssh -T git@github.com
 
 ---
 
-[![Índice](https://img.shields.io/badge/_Volver_al_Índice--badge&logo=house&logoColor=white)](README.md)
+[![Índice](https://img.shields.io/badge/_Volver_al_Índice--badge&logo=house&logoColor=white)](./)
