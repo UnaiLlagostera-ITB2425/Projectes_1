@@ -1,4 +1,4 @@
-[![Índice](https://img.shields.io/badge/_Volver_a_la_portada--badge&logo=house&logoColor=white)](./)
+[![Índice](https://img.shields.io/badge/_Volver_a_la_portada--badge&logo=house&logoColor=white)](/README.md)
 
 # Índice
 

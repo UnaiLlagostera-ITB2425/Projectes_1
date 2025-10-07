@@ -1,4 +1,4 @@
-[![Índice](https://img.shields.io/badge/_Volver_a_la_portada--badge&logo=house&logoColor=white)](./)
+[![Índice](https://img.shields.io/badge/_Ir_al_Índice--badge&logo=house&logoColor=white)](/docs/README.md)
 
 # Correcciones en el Código - Documentación Técnica
 
