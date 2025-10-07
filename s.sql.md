@@ -19,4 +19,6 @@ CREATE TABLE users (
 );
 ```
 
+Ahora ya tenemos la **base de datos** y sus **tablas** creadas.
+
 [![Índice](https://img.shields.io/badge/_Volver_al_Índice--badge&logo=house&logoColor=white)](./)
