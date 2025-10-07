@@ -1,11 +1,5 @@
 # AP - Trabajo con git y desplegamiento de código inicial
 
-## Índice
-
-1. [Conexión con GitHub](conexión_git.md)
-2. [Configuración del Servidor Apache con PHP](s.apache-php.md)
-3. [Configuración del Servidor MySQL](s.sql.md)
-
 ## Arquitectura Desplegada
 
 Hemos desplegado una arquitectura de dos servidores:
@@ -23,14 +17,15 @@ Los servidores se comunican entre sí a través de la red. El servidor web aloja
 2. **Configuración de los servidores**:
    - Servidor Apache/PHP: Instalación y configuración de Apache, PHP y extensión MySQL.
    - Servidor MySQL: Instalación y configuración de MySQL, creación de base de datos y usuario.
-3. **Clonación del código** en ambos servidores.
-4. **Corrección de bugs** en el código.
+3. **Corrección de bugs** en el código.
+4. **Clonación del código** en ambos servidores.
 5. **Despliegue y pruebas**.
 
-### Correciones en el código
-En el código proporcionado hay varios errores que hemos tenido que solucionar
+---
 
-[Ver código](correciones.md)
+## Guía detallada de los pasos
+
+[![Índice](https://img.shields.io/badge/_Ir_al_Índice--badge&logo=house&logoColor=white)](/docs/README.md)
 
 ---
 

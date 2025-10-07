@@ -1,4 +1,4 @@
-[![Índice](https://img.shields.io/badge/_Volver_al_Índice--badge&logo=house&logoColor=white)](./)
+[![Índice](https://img.shields.io/badge/_Ir_al_Índice--badge&logo=house&logoColor=white)](/docs/README.md)
 
 # 🧭 Guía para Configurar y Ejecutar la Base de Datos MySQL (Proyecto CRUD)
 
@@ -42,4 +42,4 @@ CREATE TABLE users (
 
 Ahora ya tenemos la **base de datos** y sus **tablas** creadas.
 
-[![Índice](https://img.shields.io/badge/_Volver_al_Índice--badge&logo=house&logoColor=white)](./)
+[![Índice](https://img.shields.io/badge/_Ir_al_Índice--badge&logo=house&logoColor=white)](/docs/README.md)
