@@ -310,6 +310,25 @@ header("Location: index.php?deleted=1");
 exit;
 ?>
 ```
+## 6. Vincular carpeta del repositorio al servidor web (symlink)
+
+Si tu proyecto está en `/home/isard/Projectes_1/app` y quieres que aparezca en `/var/www/html`, ejecuta:
+
+```bash
+sudo rm -rf /var/www/html
+sudo ln -s /home/isard/Projectes_1/app /var/www/html
+```
+
+Esto crea un **enlace simbólico**, de modo que los cambios en el repositorio se reflejan automáticamente en el servidor web.
+
+---
+
+## 🧾 11. Permisos recomendados
+
+```bash
+sudo chown -R www-data:www-data /home/isard/Projectes_1/app
+sudo chmod -R 755 /home/isard/Projectes_1/app
+```
 
 ---
 
